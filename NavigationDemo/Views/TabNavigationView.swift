@@ -24,7 +24,7 @@ struct TabNavigationView: View {
                 View3()
 //                    .badge("10,000")
                     .tabItem {
-                        Label("Account", systemImage: "trash")
+                        Label("Changes", systemImage: "trash")
                     }
             }.navigationBarBackButtonHidden(true)
         }
